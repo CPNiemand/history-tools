@@ -1,4 +1,4 @@
-from ubuntu:18.04
+from ubuntu:rolling
 
 workdir /root
 run apt-get update && apt-get install -y wget gnupg
